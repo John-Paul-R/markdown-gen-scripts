@@ -67,14 +67,6 @@ ${contentTypeDetails.contentFooter?.(contentType.decoration) ?? ''}
 </details>`
 };
 
-const outTemplate = `
-<details>
-<summary><code>$1</code></summary>
-
-$2
-
-</details>`;
-
 const ContentType = {
     Text: 'Text',
     Code: 'Code',
