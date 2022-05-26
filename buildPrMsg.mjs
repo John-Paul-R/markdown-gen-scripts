@@ -41,7 +41,6 @@ rl.on('close', () => {
             + toReplace.replaceText
         );
         prevEndIdx = toReplace.index + toReplace.length;
-        // the above can be optimized by not adding on the ending token.
     }
 
     outFrags.push(inputString.substring(prevEndIdx));
